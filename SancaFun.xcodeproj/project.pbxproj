@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24FE0B0819A43D2000B4A566 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FE0B0719A43D2000B4A566 /* AppDelegate.swift */; };
+		24FE0B0A19A43D2000B4A566 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FE0B0919A43D2000B4A566 /* ViewController.swift */; };
+		24FE0B0D19A43D2000B4A566 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24FE0B0B19A43D2000B4A566 /* Main.storyboard */; };
+		24FE0B0F19A43D2000B4A566 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24FE0B0E19A43D2000B4A566 /* Images.xcassets */; };
+		24FE0B1B19A43D2100B4A566 /* SancaFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FE0B1A19A43D2100B4A566 /* SancaFunTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24FE0B1519A43D2100B4A566 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24FE0AFA19A43D2000B4A566 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24FE0B0119A43D2000B4A566;
+			remoteInfo = SancaFun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24FE0B0219A43D2000B4A566 /* SancaFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SancaFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24FE0B0619A43D2000B4A566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24FE0B0719A43D2000B4A566 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24FE0B0919A43D2000B4A566 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24FE0B0C19A43D2000B4A566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24FE0B0E19A43D2000B4A566 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		24FE0B1419A43D2000B4A566 /* SancaFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SancaFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24FE0B1919A43D2100B4A566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24FE0B1A19A43D2100B4A566 /* SancaFunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SancaFunTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24FE0AFF19A43D2000B4A566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24FE0B1119A43D2000B4A566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24FE0AF919A43D2000B4A566 = {
+			isa = PBXGroup;
+			children = (
+				24FE0B0419A43D2000B4A566 /* SancaFun */,
+				24FE0B1719A43D2100B4A566 /* SancaFunTests */,
+				24FE0B0319A43D2000B4A566 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24FE0B0319A43D2000B4A566 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24FE0B0219A43D2000B4A566 /* SancaFun.app */,
+				24FE0B1419A43D2000B4A566 /* SancaFunTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24FE0B0419A43D2000B4A566 /* SancaFun */ = {
+			isa = PBXGroup;
+			children = (
+				24FE0B0719A43D2000B4A566 /* AppDelegate.swift */,
+				24FE0B0919A43D2000B4A566 /* ViewController.swift */,
+				24FE0B0B19A43D2000B4A566 /* Main.storyboard */,
+				24FE0B0E19A43D2000B4A566 /* Images.xcassets */,
+				24FE0B0519A43D2000B4A566 /* Supporting Files */,
+			);
+			path = SancaFun;
+			sourceTree = "<group>";
+		};
+		24FE0B0519A43D2000B4A566 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24FE0B0619A43D2000B4A566 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24FE0B1719A43D2100B4A566 /* SancaFunTests */ = {
+			isa = PBXGroup;
+			children = (
+				24FE0B1A19A43D2100B4A566 /* SancaFunTests.swift */,
+				24FE0B1819A43D2100B4A566 /* Supporting Files */,
+			);
+			path = SancaFunTests;
+			sourceTree = "<group>";
+		};
+		24FE0B1819A43D2100B4A566 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24FE0B1919A43D2100B4A566 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24FE0B0119A43D2000B4A566 /* SancaFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24FE0B1E19A43D2100B4A566 /* Build configuration list for PBXNativeTarget "SancaFun" */;
+			buildPhases = (
+				24FE0AFE19A43D2000B4A566 /* Sources */,
+				24FE0AFF19A43D2000B4A566 /* Frameworks */,
+				24FE0B0019A43D2000B4A566 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SancaFun;
+			productName = SancaFun;
+			productReference = 24FE0B0219A43D2000B4A566 /* SancaFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24FE0B1319A43D2000B4A566 /* SancaFunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24FE0B2119A43D2100B4A566 /* Build configuration list for PBXNativeTarget "SancaFunTests" */;
+			buildPhases = (
+				24FE0B1019A43D2000B4A566 /* Sources */,
+				24FE0B1119A43D2000B4A566 /* Frameworks */,
+				24FE0B1219A43D2000B4A566 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24FE0B1619A43D2100B4A566 /* PBXTargetDependency */,
+			);
+			name = SancaFunTests;
+			productName = SancaFunTests;
+			productReference = 24FE0B1419A43D2000B4A566 /* SancaFunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24FE0AFA19A43D2000B4A566 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = jchahoud;
+				TargetAttributes = {
+					24FE0B0119A43D2000B4A566 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					24FE0B1319A43D2000B4A566 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 24FE0B0119A43D2000B4A566;
+					};
+				};
+			};
+			buildConfigurationList = 24FE0AFD19A43D2000B4A566 /* Build configuration list for PBXProject "SancaFun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24FE0AF919A43D2000B4A566;
+			productRefGroup = 24FE0B0319A43D2000B4A566 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24FE0B0119A43D2000B4A566 /* SancaFun */,
+				24FE0B1319A43D2000B4A566 /* SancaFunTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24FE0B0019A43D2000B4A566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FE0B0D19A43D2000B4A566 /* Main.storyboard in Resources */,
+				24FE0B0F19A43D2000B4A566 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24FE0B1219A43D2000B4A566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24FE0AFE19A43D2000B4A566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FE0B0A19A43D2000B4A566 /* ViewController.swift in Sources */,
+				24FE0B0819A43D2000B4A566 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24FE0B1019A43D2000B4A566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FE0B1B19A43D2100B4A566 /* SancaFunTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24FE0B1619A43D2100B4A566 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24FE0B0119A43D2000B4A566 /* SancaFun */;
+			targetProxy = 24FE0B1519A43D2100B4A566 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24FE0B0B19A43D2000B4A566 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24FE0B0C19A43D2000B4A566 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24FE0B1C19A43D2100B4A566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24FE0B1D19A43D2100B4A566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24FE0B1F19A43D2100B4A566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SancaFun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		24FE0B2019A43D2100B4A566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SancaFun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		24FE0B2219A43D2100B4A566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SancaFunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SancaFun.app/SancaFun";
+			};
+			name = Debug;
+		};
+		24FE0B2319A43D2100B4A566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SancaFunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SancaFun.app/SancaFun";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24FE0AFD19A43D2000B4A566 /* Build configuration list for PBXProject "SancaFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24FE0B1C19A43D2100B4A566 /* Debug */,
+				24FE0B1D19A43D2100B4A566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24FE0B1E19A43D2100B4A566 /* Build configuration list for PBXNativeTarget "SancaFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24FE0B1F19A43D2100B4A566 /* Debug */,
+				24FE0B2019A43D2100B4A566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		24FE0B2119A43D2100B4A566 /* Build configuration list for PBXNativeTarget "SancaFunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24FE0B2219A43D2100B4A566 /* Debug */,
+				24FE0B2319A43D2100B4A566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24FE0AFA19A43D2000B4A566 /* Project object */;
+}
