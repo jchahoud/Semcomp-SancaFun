@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		24FE0B0819A43D2000B4A566 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FE0B0719A43D2000B4A566 /* AppDelegate.swift */; };
-		24FE0B0A19A43D2000B4A566 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FE0B0919A43D2000B4A566 /* ViewController.swift */; };
 		24FE0B0D19A43D2000B4A566 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24FE0B0B19A43D2000B4A566 /* Main.storyboard */; };
 		24FE0B0F19A43D2000B4A566 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24FE0B0E19A43D2000B4A566 /* Images.xcassets */; };
 		24FE0B1B19A43D2100B4A566 /* SancaFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FE0B1A19A43D2100B4A566 /* SancaFunTests.swift */; };
+		24FE0B2519A43E2100B4A566 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FE0B2419A43E2100B4A566 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,12 +28,12 @@
 		24FE0B0219A43D2000B4A566 /* SancaFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SancaFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24FE0B0619A43D2000B4A566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24FE0B0719A43D2000B4A566 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		24FE0B0919A43D2000B4A566 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		24FE0B0C19A43D2000B4A566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24FE0B0E19A43D2000B4A566 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		24FE0B1419A43D2000B4A566 /* SancaFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SancaFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24FE0B1919A43D2100B4A566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24FE0B1A19A43D2100B4A566 /* SancaFunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SancaFunTests.swift; sourceTree = "<group>"; };
+		24FE0B2419A43E2100B4A566 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				24FE0B0719A43D2000B4A566 /* AppDelegate.swift */,
-				24FE0B0919A43D2000B4A566 /* ViewController.swift */,
+				24FE0B2419A43E2100B4A566 /* TableViewController.swift */,
 				24FE0B0B19A43D2000B4A566 /* Main.storyboard */,
 				24FE0B0E19A43D2000B4A566 /* Images.xcassets */,
 				24FE0B0519A43D2000B4A566 /* Supporting Files */,
@@ -208,8 +208,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24FE0B0A19A43D2000B4A566 /* ViewController.swift in Sources */,
 				24FE0B0819A43D2000B4A566 /* AppDelegate.swift in Sources */,
+				24FE0B2519A43E2100B4A566 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
